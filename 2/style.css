@@ -10,7 +10,7 @@ body {
     display: flex;
     flex-wrap: wrap;
   }
-  
+  /*THE ENTIRE MEDIA PART WAS TAKEN FROM W3SCHOOLS ITS NOT CHATGPT I CAN EXPLAIN */
   /* For mobile phones: */
 [class*="col-"] {
   width: 100%;
