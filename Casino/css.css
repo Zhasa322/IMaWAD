@@ -1,0 +1,44 @@
+body{
+    background-image: url(newbackground.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+
+}
+  
+.main-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+  }
+  
+.column {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+.dice {
+    width: 100px;
+    height: 100px;
+  }
+  
+  #sidebar,
+  #sidebar2 {
+    width: 150px;
+    text-align: center;
+  }
+  
+  .casinosidebar {
+    width: 100%; 
+    height: auto;
+    display: block;
+  }
+  
+button {
+    margin-top: 20px;
+    padding: 20px;
+    font-size: 16px;
+  }
+  
