@@ -1,0 +1,94 @@
+.logotext{
+    font-size: 100px;
+    color: aqua;
+}
+
+.albumcover {
+    height: 300px;
+    width: 300px;
+    display: block;
+    margin: auto;
+}
+
+
+.prev-album {
+    opacity: 0.3;
+    height: 300px;
+    width: 300px;
+    display: block;
+    margin: auto;
+}
+
+.next-album {
+    opacity: 0.3;
+    height: 300px;
+    width: 300px;
+    display: block;
+    margin: auto;
+}
+
+.logo{
+ width: 100%;
+}
+
+.prevbutton{
+    height: 70px;
+    width: 100%;
+    margin: 10px;
+}
+
+.prevbuttonimg{
+    height: 100%;
+    width: 100%;
+}
+
+.playbutton{
+    height: 70px;
+    width: 100%;
+    margin: 10px;
+}
+
+.playbuttonimg{
+    height: 100%;
+    width: 100%;
+}
+
+.stopbutton{
+    height: 70px;
+    width: 100%;
+    margin: 10px;
+}
+
+.stopbuttonimg{
+    height: 100%;
+    width: 100%;
+}
+
+.nextbutton{
+    height: 70px;
+    width: 100%;
+    margin: 10px;
+}
+
+.nextbuttonimg{
+    height: 100%;
+    width: 100%;
+}
+
+
+h3{
+text-align: center;
+}
+
+.tracklist{
+    border-radius: 4px;
+}
+
+.trackbutton{
+    border-radius: 4px;
+    margin: 4px;
+    padding: 4px;
+    background-color: rgb(147, 147, 147);
+    width: 100% ;
+    text-align: left;
+}
