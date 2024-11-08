@@ -1,0 +1,67 @@
+.cur-hero {
+    height: 300px;
+    width: 300px;
+    display: block;
+    margin: auto;
+}
+
+
+.prev-hero {
+    opacity: 0.3;
+    height: 300px;
+    width: 300px;
+    display: block;
+    margin: auto;
+}
+
+.next-hero {
+    opacity: 0.3;
+    height: 300px;
+    width: 300px;
+    display: block;
+    margin: auto;
+}
+
+.logo{
+ width: 100%;
+}
+
+.prevbutton{
+    height: 70px;
+    width: 100%;
+    margin: 10px;
+}
+
+.prevbuttonimg{
+    height: 100%;
+    width: 100%;
+}
+
+.nextbutton{
+    height: 70px;
+    width: 100%;
+    margin: 10px;
+}
+
+.nextbuttonimg{
+    height: 100%;
+    width: 100%;
+}
+
+.searchbutton{
+    display: block;
+    margin: auto;
+    margin-top: 3px;
+}
+
+.header{
+    text-align: center;
+    font-size: 56px;
+    color: rgb(195, 23, 23);
+}
+
+.text{
+    text-align: center;
+    font-size: 24px;
+    color: rgb(255, 255, 255);
+}

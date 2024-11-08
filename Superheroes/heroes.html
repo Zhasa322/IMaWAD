@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Super Hero database</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  </head>
+
+  <body class="bg-dark">
+
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-2">
+                <img src="logo.png" alt="" class="logo">
+            </div>
+        </div>
+
+      </br>
+
+        <div class="row justify-content-center">
+          <div class="col-3"> 
+            <img src="cover/HeroLogo.png" alt="" id="prev-hero" class="prev-hero">
+          </div>
+          <div class="col-3"> 
+            <img src="cover/HeroLogo.png" alt="" id="cur-hero" class="cur-hero">
+          </div>
+          <div class="col-3"> 
+            <img src="cover/HeroLogo.png" alt="" id="next-hero" class="next-hero">
+          </div>
+        </div>
+
+      </br>
+      </br>
+
+        <div class="row justify-content-center">
+          <div class="col-1"> 
+            <button class="prevbutton" onclick="prev()"> <img src="buttons/prev.png" class="prevbuttonimg"> </button>
+          </div>
+          <div class="col-2">
+            <label>Enter Hero ID: </label>
+            <input type="number" id="hero-id" value="1" min="1">
+            <button class="searchbutton" onclick="findhero()">Search for hero</button>
+          </div>
+          
+          <div class="col-1"> 
+            <button class="nextbutton" onclick="next()"> <img src="buttons/next.png" class="nextbuttonimg"> </button>
+          </div>
+        </div>
+
+    </div>
+
+    
+    <div>
+      <h1 class="header"> Superhero's biography </h1>
+      <p class="text" id="name">Name:</p>
+      <p class="text" id="fullName">Full Name:</p>
+      <p class="text" id="placeOfBirth">Place of Birth:</p>
+      <p class="text" id="firstAppearance">First Appearance:</p>
+      <p class="text" id="alignment">Alignment:</p>
+    </div>
+    
+    <div>
+      <h1 class="header">Powerstats</h1>
+      <p class="text" id="intelligence">Intelligence:</p>
+      <p class="text" id="strength">Strength:</p>
+      <p class="text" id="speed">Speed:</p>
+      <p class="text" id="durability">Durability:</p>
+      <p class="text"<p id="power">Power:</p>
+      <p class="text" id="combat">Combat:</p>
+    </div>
+    
+    <div>
+      <h1 class="header">Appearance</h3>
+      <p class="text" id="race">Race:</p>
+      <p class="text" id="height">Height:</p>
+      <p class="text" id="weight">Weight:</p>
+
+    </div>
+
+
+    <script src="heroes.js">       
+    </script>
+
+  </body>
+
+</html>
